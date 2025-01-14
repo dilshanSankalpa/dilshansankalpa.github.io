@@ -3,6 +3,7 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import MailIcon from '@mui/icons-material/Mail';
 import '../assets/styles/Main.scss';
+import avatar from '../assets/images/avatar.jpg';
 
 function Main() {
 
@@ -10,7 +11,7 @@ function Main() {
     <div className="container">
       <div className="about-section">
         <div className="image-wrapper">
-          <img src="/src/assets/images/profil_avatar.jpg" alt="Avatar" />
+          <img src={avatar} alt="Avatar" />
         </div>
         <div className="content">
           <div className="social_icons">
