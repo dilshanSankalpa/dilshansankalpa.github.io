@@ -19,7 +19,7 @@ function Main() {
             <a href="mailto:dilshansankalpa98@gmail.com" target="_blank" rel="noreferrer"><MailIcon/></a>
           </div>
           <h1>Dilshan Sankalpa</h1>
-          <p>Software Engineer | ML Engineer | DevOps Engineer | Data scientist</p>
+          <p>Software Engineer | DevOps Engineer | Data scientist</p>
 
           <div className="mobile_social_icons">
             <a href="https://github.com/dilshanSankalpa" target="_blank" rel="noreferrer"><GitHubIcon/></a>
