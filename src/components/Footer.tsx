@@ -12,7 +12,7 @@ function Footer() {
             <a href="https://www.linkedin.com/in/dilshan-sankalpa-dissanayake/" target="_blank" rel="noreferrer"><LinkedInIcon/></a>
             <a href="mailto:dilshansankalpa98@gmail.com" target="_blank" rel="noreferrer"><MailIcon/></a>
       </div>
-      {/* <p>A portfolio designed & built by <a href="https://github.com/yujisatojr/react-portfolio-template" target="_blank" rel="noreferrer">Yuji Sato</a> with 💜</p> */}
+      <p>Thanks for designing this template <a href="https://github.com/yujisatojr/react-portfolio-template" target="_blank" rel="noreferrer">Yuji Sato</a> 🙏🏼 </p>
     </footer>
   );
 }
