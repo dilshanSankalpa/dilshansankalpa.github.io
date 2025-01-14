@@ -24,7 +24,13 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      # Step 4: Deploy using npm script
+      # Step 4: Configure Git user
+      - name: Configure Git
+        run: |
+          git config --global user.name "dilshansankalpa"
+          git config --global user.email "dilshansankalpa98@gmail.com"
+
+      # Step 5: Deploy using npm script
       - name: Deploy to GitHub Pages
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
