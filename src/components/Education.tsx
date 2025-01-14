@@ -20,8 +20,8 @@ function Education() {
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faGraduationCap} />}
           >
-            <h3 className="vertical-timeline-element-title">Technology Consultant</h3>
-            <h4 className="vertical-timeline-element-subtitle">Dallas, TX</h4>
+            <h3 className="vertical-timeline-element-title">Master's in Data analytics</h3>
+            <h4 className="vertical-timeline-element-subtitle">University of Kelaniya</h4>
             <p>
               Full-stack Web Development, GenAI/LLM, Project Management, Business Development
             </p>
