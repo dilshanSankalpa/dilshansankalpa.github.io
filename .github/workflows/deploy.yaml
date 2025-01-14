@@ -31,11 +31,8 @@ jobs:
           git config --global user.email "dilshansankalpa98@gmail.com"
 
       # Step 5: Deploy using npm script
-    #   - name: Deploy to GitHub Pages
-    #     env:
-    #       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-    #     run: npm run deploy
-
-              # Step 5: Deploy using npm script
       - name: Deploy to GitHub Pages
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: npm run deploy
+
