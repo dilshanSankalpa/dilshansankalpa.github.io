@@ -3,7 +3,6 @@ import {
   Main,
   Timeline,
   Expertise,
-  Project,
   Contact,
   Navigation,
   Footer,
