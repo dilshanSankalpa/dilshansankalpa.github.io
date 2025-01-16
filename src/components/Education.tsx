@@ -23,36 +23,36 @@ function Education() {
             <h3 className="vertical-timeline-element-title">Master's in Data analytics</h3>
             <h4 className="vertical-timeline-element-subtitle">University of Kelaniya</h4>
             <p>
-              Full-stack Web Development, GenAI/LLM, Project Management, Business Development
+              Data Science, Machine Learning, Data Engineering, Data Visualization
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="2020 - 2022"
+            date="2024 - 2025"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faGraduationCap} />}
           >
-            <h3 className="vertical-timeline-element-title">Full Stack Engineer</h3>
-            <h4 className="vertical-timeline-element-subtitle">Laie, HI</h4>
+            <h3 className="vertical-timeline-element-title">Bsc in Computer Science</h3>
+            <h4 className="vertical-timeline-element-subtitle">University Of Colombo School Of Computing</h4>
             <p>
-              Frontend Development, Backend Development, User Experience, Team Leading
+              Software Development, Data Structures, Algorithms, Database Management
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="2021 - 2021"
+            date="2020 - 2023"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faGraduationCap} />}
           >
-            <h3 className="vertical-timeline-element-title">Staff Engineer Intern</h3>
-            <h4 className="vertical-timeline-element-subtitle">Laie, HI</h4>
+            <h3 className="vertical-timeline-element-title">Advance Level</h3>
+            <h4 className="vertical-timeline-element-subtitle">Others Stream, Walisinghe M.V.</h4>
             <p>
-              Full-stack Development, API Development, User Experience
+              Mathematics, Physics, ICT, District Rank 1
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="2020 - 2020"
+            date="2015 - 2018"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faGraduationCap} />}
           >
