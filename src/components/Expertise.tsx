@@ -6,16 +6,20 @@ import Chip from '@mui/material/Chip';
 import '../assets/styles/Expertise.scss';
 
 const labelsFirst = [
-    "React",
+    "Python",
     "TypeScript",
     "JavaScript",
+    "Java",
+    "React",
+    "Angular",
     "HTML5",
     "CSS3",
     "SASS",
-    "Flask",
-    "Python",
+    "Express",
+    "FastAPI",
+    "SpringBoot",
     "SQL",
-    "PostgreSQL",
+    "MongoDB",
     "Postman"
 ];
 
@@ -23,22 +27,25 @@ const labelsSecond = [
     "Git",
     "GitHub Actions",
     "Docker",
-    "AWS",
-    "Azure",
+    "Windows Server",
+    "Jenkins",
     "Linux",
-    "Snowflake",
-    "Pandas",
+    "Stackstorm",
+    "AWS",
     "Selenium",
 ];
 
 const labelsThird = [
+    "NumPy",
+    "Pandas",
+    "Matplotlib",
+    "Scikit-Learn",
+    "TensorFlow",
     "OpenAI",
-    "Groq",
-    "LangChain",
-    "Qdrant",
     "Hugging Face",
-    "LlamaIndex",
-    "Streamlit",
+    "Power BI",
+    "MS SQL",
+    "MS Excel",
 ];
 
 function Expertise() {
@@ -62,7 +69,7 @@ function Expertise() {
                 <div className="skill">
                     <FontAwesomeIcon icon={faDocker} size="3x"/>
                     <h3>DevOps & Automation</h3>
-                    <p>Once the application is built, I help clients set up DevOps testing, CI/CD pipelines, and deployment automation to support the successful Go-Live.</p>
+                    <p>I have years practices in manual process automation and DevOps Automation which is from Automate testing to monitoring.</p>
                     <div className="flex-chips">
                         <span className="chip-title">Tech stack:</span>
                         {labelsSecond.map((label, index) => (
@@ -73,8 +80,8 @@ function Expertise() {
 
                 <div className="skill">
                     <FontAwesomeIcon icon={faPython} size="3x"/>
-                    <h3>GenAI & LLM</h3>
-                    <p>Stay relevant in the market by leveraging the latest AI models in your projects. I have professional experience building enterprise grade GenAI-enabled solutions to empower intelligent decision making.</p>
+                    <h3>Data Science</h3>
+                    <p>I have passion on data science due to this once I completed my bachelor degree I have joined for data science related Master's degree and joined for couple of freelancing projects.</p>
                     <div className="flex-chips">
                         <span className="chip-title">Tech stack:</span>
                         {labelsThird.map((label, index) => (
