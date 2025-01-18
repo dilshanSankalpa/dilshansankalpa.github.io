@@ -12,14 +12,22 @@ const labelsFirst = [
     "Java",
     "React",
     "Angular",
-    "HTML5",
-    "CSS3",
     "Express",
     "FastAPI",
     "SpringBoot",
+    "HTML5",
+    "CSS3",
     "SQL",
     "MongoDB",
-    "Postman"
+    "Postman",
+    "Figma",
+    "Jira",
+    "Confluence",
+    "Draw.io",
+    "Swagger",
+    "Visio",
+    "Lucidchart",
+
 ];
 
 const labelsSecond = [
@@ -35,6 +43,7 @@ const labelsSecond = [
     "Splunk",
     "Zabbix",
     "Dynatrace",
+    "Power Automate",
 ];
 
 const labelsThird = [
