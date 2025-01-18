@@ -38,6 +38,18 @@ function Timeline() {
               I have been working on the automation of the manual work that the team was doing. I have used Python, TS, Jenkins, Power Automate, Angular, Express, Java, Go, Stackstorm , ServiceNow , BigPanda, Zabbix, Dynatrace, and Splunk and more.
             </p>
           </VerticalTimelineElement>
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            date="2018 - 2019"
+            iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
+            icon={<FontAwesomeIcon icon={faBriefcase} />}
+          >
+            <h3 className="vertical-timeline-element-title">Backend Developer</h3>
+            <h4 className="vertical-timeline-element-subtitle">Infini Solution</h4>
+            <p>
+              I started my career as a backend developer for a startup company. We have created MVC application according to the client's requirements. I could get the experience with a diverse range of exposure of software development requirement elicitation, design, development, testing, and deployment. We have used PHP, Apache, MySQL, JQuery, HTML, CSS and more.
+            </p>
+          </VerticalTimelineElement>
         </VerticalTimeline>
       </div>
     </div>
