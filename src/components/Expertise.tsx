@@ -32,6 +32,9 @@ const labelsSecond = [
     "Stackstorm",
     "AWS",
     "Selenium",
+    "Splunk",
+    "Zabbix",
+    "Dynatrace",
 ];
 
 const labelsThird = [
@@ -70,7 +73,7 @@ function Expertise() {
                 <div className="skill">
                     <FontAwesomeIcon icon={faDocker} size="3x"/>
                     <h3>DevOps & Automation</h3>
-                    <p>I have years practices in manual process automation and DevOps Automation which is from Automate testing to monitoring.</p>
+                    <p>I have years of practices in manual process automation and DevOps Automation which is from Automate testing to monitoring.</p>
                     <div className="flex-chips">
                         <span className="chip-title">Tech stack:</span>
                         {labelsSecond.map((label, index) => (
